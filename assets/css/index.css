@@ -1,0 +1,42 @@
+.jumbotron {
+    font-family: 'Permanent Marker', cursive;
+    background-color:rgb(216, 216, 31);
+
+}
+
+i {
+    font-size:75px;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+a:visited {
+    color: black !important;
+}
+
+a:hover, a:active {
+    color: black !important;
+}
+
+ a {
+    color: black !important;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+h5 {
+    color:rgb(216, 216, 31);
+    font-family: 'Permanent Marker', cursive;
+    text-align:center;
+}
+
+footer {
+    background-color:black;
+}
