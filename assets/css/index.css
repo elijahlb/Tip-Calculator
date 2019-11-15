@@ -1,6 +1,7 @@
 .jumbotron {
     font-family: 'Permanent Marker', cursive;
-    background-color:rgb(216, 216, 31);
+    background-color:rgb(233, 218, 17);
+    border-bottom:5px solid rgb(233, 17, 161);
 
 }
 
@@ -12,16 +13,34 @@ h2 {
     font-family: 'Amatic SC', cursive;
 }
 
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}
+
+body {
+    background-image:url(../images/restuarant-image.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    }
+    
+}
+
 a:visited {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 a:hover, a:active {
-    color: black !important;
+    color: white !important;
 }
 
  a {
-    color: black !important;
+    color: white !important;
 }
 
 footer {
@@ -29,10 +48,11 @@ footer {
     height: 100px;
     bottom: 0;
     width: 100%;
+    border-top: 5px solid rgb(233, 17, 161);
 }
 
 h5 {
-    color:rgb(216, 216, 31);
+    color:rgb(233, 218, 17);
     font-family: 'Permanent Marker', cursive;
     text-align:center;
 }
