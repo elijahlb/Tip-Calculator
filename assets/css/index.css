@@ -8,7 +8,7 @@
 i {
     font-size:50px;
     color:rgb(233, 17, 161);
-    opacity:0.5;
+    opacity:0.7;
     border-radius:10px;
 }
 
@@ -38,7 +38,7 @@ body {
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: auto;
-    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation: backgroundScroll 20s linear 1;
     -webkit-animation-fill-mode: forwards;
     animation: backgroundScroll 15s linear 1;
     animation-fill-mode: forwards;
