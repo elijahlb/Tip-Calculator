@@ -13,14 +13,32 @@
            <div class="jumbotron jumbotron-fluid text-center">
               <div class="container">
 
-                <h1>Sliding Tip Calulator</h1>
+                    <a href="index.html"><h1 id='homepage'>Tip Calulator</h1></a>
               </div>
             </div>
-            <br>
+         
             <div class="container">
-                <div class="row mt-5">
+               
+                        <form class="text-center" id="tipform">
+                                <div class="form-group ">
+                                        <label>BILL <i class="far fa-money-bill-alt"></i></label>
+                                        <input type="text" class="form-control" id="billamount" placeholder="$">
+                                      </div>
+                                
+                                <div class="form-group">
+                                  <label>PERCENTAGE <i class="fas fa-percentage"></i></label>
+                                  <input type="text" class="form-control" id="tippercentage" placeholder="%">
+                                </div>
+                                <div class="form-group">
+                                        <label>TIP TOTAL<i class="fas fa-percentage"></i></label>
+                                        <input class="form-control" id="tiptotal">
+                                      </div>
+                                
+                                <button value="send" type="button" onclick="calcTip()" class="btn btn-primary">Submit</button>
+                              </form>
+                             
                     
-                </div>
+                
             </div>
 
 

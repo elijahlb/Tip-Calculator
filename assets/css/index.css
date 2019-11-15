@@ -6,11 +6,26 @@
 }
 
 i {
+    font-size:50px;
+    color:rgb(233, 17, 161);
+    opacity:0.5;
+    border-radius:10px;
+}
+
+.indexpic {
     font-size:75px;
+}
+
+#homepage {
+    font-family: 'Permanent Marker', cursive;
+    color:black;
 }
 
 h2 {
     font-family: 'Amatic SC', cursive;
+    background-color:black;
+    opacity:0.7;
+    border-radius:30px;
 }
 
 @-webkit-keyframes backgroundScroll {
@@ -45,10 +60,21 @@ a:hover, a:active {
 
 footer {
     position: fixed;
-    height: 100px;
+    height: 75px;
     bottom: 0;
     width: 100%;
     border-top: 5px solid rgb(233, 17, 161);
+}
+
+label {
+    font-family: 'Amatic SC', cursive;
+    color:white;
+    font-size:50px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgb(233, 17, 161) !important;
+    border:0;
 }
 
 h5 {
